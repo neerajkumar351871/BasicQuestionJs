@@ -91,27 +91,27 @@
 
  // 6.Check if number is between 50 and 100 or equal to 200
 
- const data = prompt("Enter The Number");
- const number= Number(data)
- if(50<=number && 200>=number)
- {
-    if(50<=number && 100>=number)
-    {
- console.log("Belong to range 50 to 100",number)
-    }
-    else
-    {
-          {
- console.log("Belong to range 100 to 200",number)
-    }
-    }
- }
- else
- {
-      {
- console.log("Does not belong 50 to 200",number)
-    }
- }
+ //const data = prompt("Enter The Number");
+ //const number= Number(data)
+ //if(50<=number && 200>=number)
+ //{
+ //   if(50<=number && 100>=number)
+ //   {
+ //console.log("Belong to range 50 to 100",number)
+ //   }
+ //   else
+ //   {
+ //         {
+ //console.log("Belong to range 100 to 200",number)
+ //   }
+ //   }
+ //}
+ //else
+ //{
+ //     {
+ //console.log("Does not belong 50 to 200",number)
+ //   }
+ //}
 
 // ⭐ Rating: 7/10
 //   Criteria	Score
