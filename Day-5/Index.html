@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        .math
+        {
+            height: 200px;
+            width: 200px;
+            color: red;
+            background-color: rgb(1, 217, 255);
+        }
+    </style>
+
+</head>
+<body>
+
+<div class="math">
+    Hii i am div
+</div>
+    <script>
+
+
+let div=document.querySelector(".math");
+console.log(div.style.backgroundColor="rgb(1, 217, 255)");
+//let getAttt=div.getAttribute('class');
+//console.log(getAttt);
+//console.log(div.setAttribute('class',"Change"));
+// Create a  button through java Scipt;
+
+let btn =document.createElement("button");
+console.log(btn.innerText="Click Me!");
+//div.append(btn);
+//div.prepend(btn);
+//div.before(btn);
+//div.after(btn);
+// Create a para in body;
+let para=document.createElement("p");
+   para.innerText='Hello i am Success fully run';
+ let send= document.querySelector('body')
+ send.style.backgroundColor="yellow";
+ send.prepend(para);
+ para.remove()
+    </script>
+</body>
+</html>
