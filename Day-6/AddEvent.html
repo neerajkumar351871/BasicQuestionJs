@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="Delete">Delete Event</button>
+<button class="Right">Right Button</button>
+
+<script>
+    let Delete = document.querySelector("#Delete");
+    let right = document.querySelector(".Right");
+
+    console.log(Delete);
+
+    right.addEventListener('click', () => {
+        console.log("Successfully ran command 1");
+    });
+
+    right.addEventListener('click', () => {
+        console.log("Successfully ran command 2");
+    });
+
+    function rightCommand3() {
+        console.log("Successfully ran command 3");
+    }
+
+    right.addEventListener('click', rightCommand3);
+
+    right.addEventListener('click', () => {
+        console.log("Successfully ran command 4");
+    });
+
+    
+    Delete.addEventListener("click", () => {
+        right.removeEventListener("click", rightCommand3);
+        right
+    });
+</script>
+
+</body>
+</html>
