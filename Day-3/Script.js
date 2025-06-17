@@ -34,13 +34,13 @@
 //2. Sum of Array Elements
 
 // Return the sum of all elements in the array.
- //const Input=[1, 2, 3, 4];
- //let sum=0;
- //for(val of Input)
- //{
- //   sum+=val;
- //}
- //console.log(sum);
+//const Input=[1, 2, 3, 4];
+//let sum=0;
+//for(val of Input)
+//{
+//   sum+=val;
+//}
+//console.log(sum);
 
 //3. Find Even Numbers
 // Return all even numbers from the array.
@@ -88,17 +88,81 @@
 //6.Remove Duplicates
 //Input: [1, 2, 2, 3, 1]
 //Output: [1, 2, 3]
-const input = [1, 2, 2, 3, 1];
-const unique = [];
+//const input = [1, 2, 2, 3, 1];
+//const unique = [];
+//
+//for (let i = 0; i < input.length; i++) {
+//  if (!unique.includes(input[i])) {
+//    unique.push(input[i]);
+//  }
+//}
+//console.log(unique)
+//const arr = [2,4,5,4,6,8,9,101];
+//let number=0;
+//for(let i=0;i<=arr.length;i++)
+//{
+//if(arr[i]>number)
+//{
+//    number=arr[i];
+//}
+//}
+//console.log(number)
+//const arr = [2, 4, 5, 4, 6, 8, 9, 101];
+//let number = arr[0]; // Start with first element as initial minimum
+//
+//for (let i = 1; i < arr.length; i++) {
+//    if (arr[i] < number) {
+//        number = arr[i];
+//    }
+//}
+//
+//console.log(number); // Output: 2
 
-for (let i = 0; i < input.length; i++) {
-  if (!unique.includes(input[i])) {
-    unique.push(input[i]);
-  }
+//function Message(Msg) {
+//  return Msg.toUpperCase(); // Fix the method name and add return
+//}
+//
+//let send = "neeraj";
+//console.log(Message(send));  // Output: NEERAJ
+
+//function add(x,y)
+//{
+//    let sum =x+y
+//    return sum;
+//}
+//console.log(add(10,20));
+//const  add =(x,y)=>
+//{
+//let sum =x+y
+//return sum;
+//}
+//console.log(add(10,30)) 
+
+// Find the vowels;
+
+//const data = 'Bharat';
+//let noVowles = 0;
+//for (vowels of data.toLocaleLowerCase()) {
+//
+//    if (vowels == "a" || vowels == "e" || vowels == "i" || vowels == "o" || vowels == "u") {
+//
+//        noVowles++;
+//    }
+//}
+//console.log("No of Vowels", noVowles)
+
+const findVowles=(data)=>
+{
+    let noVowles = 0;
+   
+    for (vowels of data.toLocaleLowerCase()) {
+   if (vowels == "a" || vowels == "e" || vowels == "i" || vowels == "o" || vowels == "u") {
+       noVowles++;
+   }
+
 }
-console.log(unique)
+console.log(data,noVowles);
+}
 
-
-
-
-
+const data = 'Bharat';
+ findVowles(data)
