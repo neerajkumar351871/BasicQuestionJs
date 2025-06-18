@@ -49,7 +49,7 @@
 
 const salarycal=
 {
-    calculatro()
+    calculator()
     {
         console.log("salary  increase in 10%")
     }
